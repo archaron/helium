@@ -16,7 +16,7 @@ nancy: deps
 
 # Dependencies
 deps:
-	@go mod tidy -compat=1.17
+	@go mod tidy
 	@go mod download
 	@go mod vendor
 
